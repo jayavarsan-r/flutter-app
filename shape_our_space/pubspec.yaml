@@ -1,0 +1,42 @@
+name: shape_our_space
+description: A marketplace platform connecting users with architects, contractors, and interior designers
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # Navigation
+  go_router: ^13.0.0
+  
+  # UI
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  
+  # API & Storage
+  dio: ^5.4.0
+  flutter_secure_storage: ^9.0.0
+  
+  # Image Picker for portfolio image uploads
+  image_picker: ^1.0.0
+  
+  # Utilities
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
